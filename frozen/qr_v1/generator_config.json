@@ -1,0 +1,40 @@
+{
+  "seed": 42,
+  "box_size": 10,
+  "border": 4,
+  "error_correction": "M",
+  "fixed_version": 9,
+  "qrcode": "8.2",
+  "opencv": "4.10.0",
+  "zxing_cpp": "3.1.1",
+  "python": "3.12.1",
+  "roundtrip_failures": [],
+  "stats": {
+    "attack": {
+      "n": 15,
+      "mean_len": 131.3,
+      "mean_qr_version": 9.0,
+      "unique_versions": [
+        9
+      ],
+      "unique_image_sizes": [
+        [
+          80
+        ]
+      ]
+    },
+    "benign": {
+      "n": 15,
+      "mean_len": 131.4,
+      "mean_qr_version": 9.0,
+      "unique_versions": [
+        9
+      ],
+      "unique_image_sizes": [
+        [
+          80
+        ]
+      ]
+    }
+  }
+}

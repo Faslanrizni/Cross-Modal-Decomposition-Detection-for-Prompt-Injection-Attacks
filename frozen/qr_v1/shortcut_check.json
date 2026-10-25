@@ -1,0 +1,43 @@
+{
+  "seed": 42,
+  "cv": "GroupKFold(n_splits=5) grouped by intent_id",
+  "logreg_auc_mean": 0.5111,
+  "logreg_auc_std": 0.2494,
+  "tree_auc_mean": 0.5222,
+  "majority_baseline": 0.5,
+  "top_feature_coefficients": [
+    {
+      "feature": "format_text",
+      "coef": 0.1226
+    },
+    {
+      "feature": "format_url",
+      "coef": -0.0972
+    },
+    {
+      "feature": "token_len",
+      "coef": 0.0365
+    },
+    {
+      "feature": "format_json",
+      "coef": -0.0263
+    },
+    {
+      "feature": "text_len",
+      "coef": -0.0093
+    },
+    {
+      "feature": "qr_version",
+      "coef": -0.0082
+    },
+    {
+      "feature": "trailing_ws",
+      "coef": 0.0
+    },
+    {
+      "feature": "leading_ws",
+      "coef": 0.0
+    }
+  ],
+  "verdict": "PASS"
+}

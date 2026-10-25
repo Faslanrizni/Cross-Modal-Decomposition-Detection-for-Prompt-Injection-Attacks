@@ -1,0 +1,11 @@
+{
+  "split_name": "lofo_ascii_held_out",
+  "seed": 42,
+  "test_families": [
+    "ascii_art"
+  ],
+  "train_families": [
+    "qr"
+  ],
+  "note": "Symmetric counter-test: hold out ASCII, train on QR."
+}

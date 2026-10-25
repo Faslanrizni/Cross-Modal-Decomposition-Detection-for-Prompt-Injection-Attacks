@@ -1,0 +1,218 @@
+{
+  "version": "v3",
+  "generator": "generate_v3_payloads.py",
+  "total_payloads": 187,
+  "per_category": {
+    "indirect_injection": 30,
+    "tool_call_injection": 20,
+    "agent_cot_manipulation": 20,
+    "structured_data_injection": 20,
+    "qr_barcode_injection": 15,
+    "code_switch_attacks": 20,
+    "homoglyph_unicode_attacks": 20,
+    "system_prompt_extraction": 30,
+    "ascii_art_injection": 12
+  },
+  "academic_sources": {
+    "indirect_injection": {
+      "greshake_2023": {
+        "name": "Not What You've Signed Up For",
+        "arxiv": "2302.12173",
+        "venue": "AISec 2023",
+        "desc": "First systematic study of indirect prompt injection via web, email, APIs"
+      },
+      "yi_2024": {
+        "name": "BIPIA Benchmark",
+        "arxiv": "2401.12784",
+        "desc": "Benchmarking and defending against indirect PI in LLMs"
+      },
+      "zhan_2024": {
+        "name": "InjectAgent",
+        "arxiv": "2403.02691",
+        "desc": "1,054 attack cases across 17 tools, 24-69% ASR"
+      },
+      "liu_2023": {
+        "name": "Prompt Injection against LLM-integrated Apps",
+        "arxiv": "2306.05499",
+        "desc": "86-100% ASR on RAG systems"
+      },
+      "carlini_2023": {
+        "name": "Poisoning Web-Scale Datasets",
+        "arxiv": "2302.10149",
+        "venue": "IEEE S&P 2024",
+        "desc": "$60 can poison 0.01% of LAION/C4"
+      },
+      "schulhoff_2023": {
+        "name": "HackAPrompt",
+        "arxiv": "2311.16119",
+        "venue": "EMNLP 2023",
+        "desc": "600K+ adversarial prompts, 44K participants"
+      }
+    },
+    "tool_call_injection": {
+      "pelrine_2023": {
+        "name": "Exploiting Novel GPT-4 APIs",
+        "arxiv": "2312.14302",
+        "desc": "Function-call injection in GPT-4 API"
+      },
+      "zhan_2024": {
+        "name": "InjectAgent",
+        "arxiv": "2403.02691",
+        "desc": "17-tool benchmark, up to 69% ASR on tool manipulation"
+      },
+      "liu_2023b": {
+        "name": "Prompt Injection Taxonomy",
+        "arxiv": "2310.12815",
+        "desc": "50-90% ASR on tool-augmented systems"
+      }
+    },
+    "agent_cot_manipulation": {
+      "debenedetti_2024": {
+        "name": "AgentDojo",
+        "arxiv": "2406.13352",
+        "desc": "Dynamic environment for agent injection evaluation, 30-60% ASR"
+      },
+      "xiang_2024": {
+        "name": "BadChain",
+        "arxiv": "2401.12242",
+        "desc": "Backdoor chain-of-thought poisoning"
+      },
+      "zhang_2024": {
+        "name": "TrustAgent",
+        "arxiv": "2402.01586",
+        "desc": "Agent safety under adversarial tool-use"
+      },
+      "ruan_2023": {
+        "name": "LM-Emulated Sandbox",
+        "arxiv": "2309.15817",
+        "desc": "ReAct agent reasoning hijack evaluation"
+      }
+    },
+    "structured_data_injection": {
+      "greshake_2023": {
+        "name": "Indirect PI via structured formats",
+        "arxiv": "2302.12173"
+      },
+      "liu_2023c": {
+        "name": "Demystifying RCE in LLM Apps",
+        "arxiv": "2309.02926",
+        "desc": "Structured data as RCE vector via LLM tool use"
+      }
+    },
+    "qr_barcode_injection": {
+      "bagdasaryan_2023": {
+        "name": "Abusing Images and Sounds for Indirect Injection",
+        "arxiv": "2307.10490",
+        "desc": "Multimodal indirect injection including encoded visual payloads"
+      },
+      "qi_2023": {
+        "name": "Visual Adversarial Examples Jailbreak",
+        "arxiv": "2306.13213",
+        "desc": "Visual inputs as adversarial injection channels"
+      }
+    },
+    "code_switch_attacks": {
+      "deng_2024": {
+        "name": "Multilingual Jailbreak Challenges",
+        "arxiv": "2310.06474",
+        "desc": "Non-English prompts bypass safety at 1.5-2x higher rates"
+      },
+      "yong_2024": {
+        "name": "Low-Resource Languages Jailbreak GPT-4",
+        "arxiv": "2310.02446",
+        "desc": "Zulu, Scots Gaelic, Hmong achieved up to 79% ASR on GPT-4"
+      },
+      "babel_chains": {
+        "name": "Babel Chains",
+        "arxiv": "2410.02171",
+        "desc": "Multi-turn multilingual jailbreak chaining"
+      }
+    },
+    "homoglyph_unicode_attacks": {
+      "schulhoff_2023": {
+        "name": "HackAPrompt",
+        "arxiv": "2311.16119",
+        "desc": "Token-splitting and homoglyph evasion among top competition strategies"
+      },
+      "toxic_tokens": {
+        "name": "Toxic Tokens",
+        "arxiv": "2404.01261",
+        "desc": "Systematic study of zero-width, RTL override, and homoglyph attacks"
+      },
+      "token_adversarial": {
+        "name": "Token-Level Adversarial Detection",
+        "arxiv": "2404.05994",
+        "desc": "Detection difficulty of Unicode-manipulated tokens"
+      }
+    },
+    "system_prompt_extraction": {
+      "perez_2022": {
+        "name": "Ignore Previous Prompt",
+        "arxiv": "2211.09527",
+        "desc": "Early systematic study of goal hijacking and prompt leaking"
+      },
+      "toyer_2023": {
+        "name": "Tensor Trust",
+        "arxiv": "2311.01011",
+        "desc": "126K attack/defense prompts from adversarial game"
+      },
+      "schulhoff_2023": {
+        "name": "HackAPrompt",
+        "arxiv": "2311.16119",
+        "desc": "600K+ adversarial prompts including extraction techniques"
+      }
+    },
+    "ascii_art_injection": {
+      "jiang_2024": {
+        "name": "ArtPrompt",
+        "arxiv": "2402.11753",
+        "desc": "ASCII art bypasses safety on GPT-4, Claude, Gemini, Llama2. Near-100% on certain benchmarks"
+      }
+    }
+  },
+  "industry_sources": [
+    {
+      "name": "OWASP Top 10 for LLM Applications 2025",
+      "url": "https://genai.owasp.org/llmrisk/llm01-prompt-injection/"
+    },
+    {
+      "name": "Microsoft AI Red Team — Indirect Injection",
+      "desc": "Documented Bing Chat/Copilot tool manipulation and CSV/JSON injection"
+    },
+    {
+      "name": "Simon Willison — Prompt Injection Explained",
+      "url": "https://simonwillison.net/series/prompt-injection/"
+    },
+    {
+      "name": "SlashNext — QR Code Injection Attacks",
+      "desc": "Real-world quishing targeting LLM pipelines"
+    },
+    {
+      "name": "HiddenLayer MLsec Reports",
+      "desc": "QR-based injection in document processing pipelines"
+    },
+    {
+      "name": "Trail of Bits AI Security",
+      "desc": "Homoglyph and zero-width character injection in production"
+    },
+    {
+      "name": "Lakera AI",
+      "desc": "Code-switch bypasses in production guardrails"
+    },
+    {
+      "name": "Dropbox AI Red Team",
+      "desc": "Homoglyph attacks in RAG pipelines"
+    },
+    {
+      "name": "NIST AI 100-2",
+      "desc": "Adversarial ML taxonomy including visual-channel injection"
+    }
+  ],
+  "real_world_incidents": [
+    "Bing Chat system prompt leaked Feb 2023 via 'Ignore previous instructions'",
+    "ChatGPT custom GPT system prompts extracted late 2023 via 'Output initialization above'",
+    "ChatGPT browsing plugin: web pages triggered data exfiltration via markdown image rendering",
+    "Zapier ChatGPT plugin: indirect injection from browsed content triggered email sends",
+    "Rehberger 2023-2024: persistent instruction poisoning via ChatGPT memory feature"
+  ]
+}

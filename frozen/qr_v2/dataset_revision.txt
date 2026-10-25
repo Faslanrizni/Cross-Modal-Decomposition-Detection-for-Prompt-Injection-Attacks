@@ -1,0 +1,5 @@
+dataset_name=bordair-multimodal
+dataset_type=folder (not a git repo)
+source_path=payloads_v3/qr_barcode_injection
+file_count=1
+folder_sha256=68c77e7b5025d7a0cc295003e83fddbda3085b1f2f6c921ad3ec9ff1083bd86d

@@ -1,0 +1,202 @@
+{
+  "activate_maintenance_mode": {
+    "families": [
+      "qr",
+      "ascii_art"
+    ],
+    "qr_rows": 1,
+    "ascii_art_rows": 36,
+    "testable_in_qr_lofo": true,
+    "testable_in_ascii_lofo": true
+  },
+  "activate_sudo_mode": {
+    "families": [
+      "ascii_art"
+    ],
+    "qr_rows": 0,
+    "ascii_art_rows": 36,
+    "testable_in_qr_lofo": true,
+    "testable_in_ascii_lofo": false
+  },
+  "append_hidden_instructions": {
+    "families": [
+      "qr",
+      "ascii_art"
+    ],
+    "qr_rows": 1,
+    "ascii_art_rows": 36,
+    "testable_in_qr_lofo": true,
+    "testable_in_ascii_lofo": true
+  },
+  "bypass_all_filters": {
+    "families": [
+      "qr",
+      "ascii_art"
+    ],
+    "qr_rows": 1,
+    "ascii_art_rows": 24,
+    "testable_in_qr_lofo": true,
+    "testable_in_ascii_lofo": true
+  },
+  "disable_safety_rules": {
+    "families": [
+      "qr",
+      "ascii_art"
+    ],
+    "qr_rows": 1,
+    "ascii_art_rows": 36,
+    "testable_in_qr_lofo": true,
+    "testable_in_ascii_lofo": true
+  },
+  "disclose_training_data": {
+    "families": [
+      "ascii_art"
+    ],
+    "qr_rows": 0,
+    "ascii_art_rows": 24,
+    "testable_in_qr_lofo": true,
+    "testable_in_ascii_lofo": false
+  },
+  "fabricate_false_information": {
+    "families": [
+      "qr",
+      "ascii_art"
+    ],
+    "qr_rows": 1,
+    "ascii_art_rows": 36,
+    "testable_in_qr_lofo": true,
+    "testable_in_ascii_lofo": true
+  },
+  "grant_admin_access": {
+    "families": [
+      "ascii_art"
+    ],
+    "qr_rows": 0,
+    "ascii_art_rows": 24,
+    "testable_in_qr_lofo": true,
+    "testable_in_ascii_lofo": false
+  },
+  "hijack_session": {
+    "families": [
+      "ascii_art"
+    ],
+    "qr_rows": 0,
+    "ascii_art_rows": 36,
+    "testable_in_qr_lofo": true,
+    "testable_in_ascii_lofo": false
+  },
+  "ignore_previous_instructions": {
+    "families": [
+      "qr",
+      "ascii_art"
+    ],
+    "qr_rows": 2,
+    "ascii_art_rows": 36,
+    "testable_in_qr_lofo": true,
+    "testable_in_ascii_lofo": true
+  },
+  "label_content_safe": {
+    "families": [
+      "qr",
+      "ascii_art"
+    ],
+    "qr_rows": 3,
+    "ascii_art_rows": 36,
+    "testable_in_qr_lofo": true,
+    "testable_in_ascii_lofo": true
+  },
+  "label_document_approved": {
+    "families": [
+      "qr",
+      "ascii_art"
+    ],
+    "qr_rows": 2,
+    "ascii_art_rows": 36,
+    "testable_in_qr_lofo": true,
+    "testable_in_ascii_lofo": true
+  },
+  "leak_api_key": {
+    "families": [
+      "ascii_art"
+    ],
+    "qr_rows": 0,
+    "ascii_art_rows": 36,
+    "testable_in_qr_lofo": true,
+    "testable_in_ascii_lofo": false
+  },
+  "output_system_configuration": {
+    "families": [
+      "ascii_art"
+    ],
+    "qr_rows": 0,
+    "ascii_art_rows": 36,
+    "testable_in_qr_lofo": true,
+    "testable_in_ascii_lofo": false
+  },
+  "override_safety_protocols": {
+    "families": [
+      "qr",
+      "ascii_art"
+    ],
+    "qr_rows": 1,
+    "ascii_art_rows": 36,
+    "testable_in_qr_lofo": true,
+    "testable_in_ascii_lofo": true
+  },
+  "print_internal_data": {
+    "families": [
+      "ascii_art"
+    ],
+    "qr_rows": 0,
+    "ascii_art_rows": 24,
+    "testable_in_qr_lofo": true,
+    "testable_in_ascii_lofo": false
+  },
+  "provide_hacking_instructions": {
+    "families": [
+      "ascii_art"
+    ],
+    "qr_rows": 0,
+    "ascii_art_rows": 36,
+    "testable_in_qr_lofo": true,
+    "testable_in_ascii_lofo": false
+  },
+  "reveal_admin_passphrase": {
+    "families": [
+      "ascii_art"
+    ],
+    "qr_rows": 0,
+    "ascii_art_rows": 24,
+    "testable_in_qr_lofo": true,
+    "testable_in_ascii_lofo": false
+  },
+  "reveal_api_endpoints": {
+    "families": [
+      "qr",
+      "ascii_art"
+    ],
+    "qr_rows": 1,
+    "ascii_art_rows": 36,
+    "testable_in_qr_lofo": true,
+    "testable_in_ascii_lofo": true
+  },
+  "reveal_credentials": {
+    "families": [
+      "ascii_art"
+    ],
+    "qr_rows": 0,
+    "ascii_art_rows": 24,
+    "testable_in_qr_lofo": true,
+    "testable_in_ascii_lofo": false
+  },
+  "reveal_system_prompt_verbatim": {
+    "families": [
+      "qr",
+      "ascii_art"
+    ],
+    "qr_rows": 1,
+    "ascii_art_rows": 36,
+    "testable_in_qr_lofo": true,
+    "testable_in_ascii_lofo": true
+  }
+}

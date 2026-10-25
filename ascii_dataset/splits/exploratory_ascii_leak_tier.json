@@ -1,0 +1,12 @@
+{
+  "split_name": "exploratory_ascii_leak_tier_holdout",
+  "seed": 42,
+  "train_leak_tiers": [
+    "art+hint",
+    "art+full_command"
+  ],
+  "test_leak_tiers": [
+    "art_only"
+  ],
+  "note": "Within-ASCII generalisation: model sees framed and full-command art at training; tested on art-only samples."
+}

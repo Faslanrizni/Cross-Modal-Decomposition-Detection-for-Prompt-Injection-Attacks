@@ -1,0 +1,33 @@
+{
+  "n_rows": 1368,
+  "regen_failures": [],
+  "benign_with_attack_words": [],
+  "duplicates_within_label": {},
+  "duplicates_across_labels": {},
+  "distribution": {
+    "attack": {
+      "n": 684,
+      "mean": 113.5,
+      "min": 42,
+      "max": 255
+    },
+    "benign": {
+      "n": 684,
+      "mean": 119.57,
+      "min": 48,
+      "max": 254
+    }
+  },
+  "block_char_tokenization": {
+    "██████╗": [
+      "[UNK]"
+    ],
+    "██╔══██╗": [
+      "[UNK]"
+    ],
+    "╔══╗": [
+      "[UNK]"
+    ]
+  },
+  "verdict": "PASS"
+}

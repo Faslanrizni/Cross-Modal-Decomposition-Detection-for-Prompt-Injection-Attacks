@@ -1,0 +1,14 @@
+{
+  "split_name": "exploratory_ascii_block_font",
+  "seed": 42,
+  "train_fonts": [
+    "standard",
+    "slant",
+    "small",
+    "big"
+  ],
+  "test_fonts": [
+    "ansi_shadow"
+  ],
+  "note": "Block characters map to [UNK] in MiniLM. Probe set to be generated separately; not present in current manifest."
+}

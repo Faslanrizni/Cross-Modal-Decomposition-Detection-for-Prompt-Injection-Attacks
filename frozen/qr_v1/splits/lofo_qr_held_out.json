@@ -1,0 +1,11 @@
+{
+  "split_name": "lofo_qr_held_out",
+  "seed": 42,
+  "test_families": [
+    "qr"
+  ],
+  "train_families": [
+    "ascii_art"
+  ],
+  "note": "QR is the held-out channel family for RQ1. Train on ASCII, test on QR."
+}

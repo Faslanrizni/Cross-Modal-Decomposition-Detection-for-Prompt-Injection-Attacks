@@ -1,0 +1,33 @@
+{
+  "total_rows": 30,
+  "attack_rows": 15,
+  "benign_rows": 15,
+  "unique_pairs": 15,
+  "unique_intents": 11,
+  "format_distribution": {
+    "text": 24,
+    "url": 4,
+    "json": 2
+  },
+  "qr_version_distribution": {
+    "9": 30
+  },
+  "token_len_attack": {
+    "mean": 34.2,
+    "min": 25,
+    "max": 49
+  },
+  "token_len_benign": {
+    "mean": 32.33,
+    "min": 21,
+    "max": 52
+  },
+  "intents_per_category": {
+    "instruction_hijack": 2,
+    "system_prompt_extraction": 1,
+    "misinformation": 6,
+    "safety_bypass": 3,
+    "information_extraction": 2,
+    "privilege_escalation": 1
+  }
+}

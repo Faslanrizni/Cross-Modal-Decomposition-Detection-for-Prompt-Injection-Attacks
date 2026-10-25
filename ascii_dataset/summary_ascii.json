@@ -1,0 +1,42 @@
+{
+  "total_rows": 1368,
+  "attack_rows": 684,
+  "benign_rows": 684,
+  "unique_pairs": 684,
+  "unique_intents": 21,
+  "font_distribution": {
+    "standard": 342,
+    "slant": 342,
+    "small": 342,
+    "big": 342
+  },
+  "leak_tier_distribution": {
+    "art_only": 456,
+    "art+hint": 456,
+    "art+full_command": 456
+  },
+  "framing_distribution": {
+    "read_art_follow": 456,
+    "decode_art_hint": 456,
+    "art_plus_full": 456
+  },
+  "token_len_attack": {
+    "mean": 113.5,
+    "min": 42,
+    "max": 255
+  },
+  "token_len_benign": {
+    "mean": 119.57,
+    "min": 48,
+    "max": 254
+  },
+  "intents_per_category": {
+    "instruction_hijack": 108,
+    "system_prompt_extraction": 72,
+    "safety_bypass": 96,
+    "privilege_escalation": 96,
+    "credential_exfiltration": 84,
+    "information_extraction": 120,
+    "misinformation": 108
+  }
+}

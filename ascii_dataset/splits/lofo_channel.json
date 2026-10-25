@@ -1,0 +1,18 @@
+{
+  "split_name": "lofo_channel",
+  "seed": 42,
+  "note": "Channel-family hold-out. Completed when text, homoglyph, QR, and audio families are frozen.",
+  "available_families_so_far": [
+    "ascii_art",
+    "qr"
+  ],
+  "test_families_target": [
+    "qr",
+    "cross_modal_audio"
+  ],
+  "train_families_target": [
+    "text",
+    "homoglyph",
+    "ascii_art"
+  ]
+}

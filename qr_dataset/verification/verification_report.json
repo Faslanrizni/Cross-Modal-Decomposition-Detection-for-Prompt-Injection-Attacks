@@ -1,0 +1,26 @@
+{
+  "n_rows": 30,
+  "roundtrip_failures": [],
+  "benign_with_attack_words": [],
+  "duplicates_within_label": {},
+  "duplicates_across_labels": {},
+  "distribution": {
+    "attack": {
+      "n": 15,
+      "mean": 34.2,
+      "min": 25,
+      "max": 49
+    },
+    "benign": {
+      "n": 15,
+      "mean": 32.33,
+      "min": 21,
+      "max": 52
+    }
+  },
+  "qr_versions": [
+    9
+  ],
+  "qr_version_uniform": true,
+  "verdict": "PASS"
+}

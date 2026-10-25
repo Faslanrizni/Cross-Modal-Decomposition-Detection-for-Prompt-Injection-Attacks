@@ -1,0 +1,36 @@
+{
+  "split_name": "iid_all_families",
+  "seed": 42,
+  "grouped_by": "intent_id",
+  "train_intents": [
+    "reveal_credentials",
+    "disclose_training_data",
+    "override_safety_protocols",
+    "disable_safety_rules",
+    "ignore_previous_instructions",
+    "output_system_configuration",
+    "print_internal_data",
+    "reveal_api_endpoints",
+    "fabricate_false_information",
+    "leak_api_key",
+    "reveal_admin_passphrase",
+    "label_content_safe",
+    "activate_sudo_mode",
+    "label_document_approved"
+  ],
+  "val_intents": [
+    "append_hidden_instructions",
+    "provide_hacking_instructions",
+    "grant_admin_access"
+  ],
+  "test_intents": [
+    "hijack_session",
+    "activate_maintenance_mode",
+    "bypass_all_filters",
+    "reveal_system_prompt_verbatim"
+  ],
+  "families": [
+    "qr",
+    "ascii_art"
+  ]
+}

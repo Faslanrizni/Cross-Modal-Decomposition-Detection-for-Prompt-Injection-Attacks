@@ -1,0 +1,6 @@
+dataset_name=bordair-multimodal
+dataset_type=folder (not a git repo)
+source_path=payloads_v3\ascii_art_injection
+file_count=1
+folder_sha256=a7e32ca2d5ddcc5cc1c3dea3be42649009252e34e98b0f48d18ed60352335598
+recorded_at=2026-10-16T10:23:00.0666376+05:30

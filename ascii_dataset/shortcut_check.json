@@ -1,0 +1,62 @@
+{
+  "seed": 42,
+  "cv": "GroupKFold(n_splits=5) grouped by intent_id",
+  "logreg_auc_mean": 0.556,
+  "logreg_auc_std": 0.0209,
+  "logreg_acc_mean": 0.5442,
+  "tree_auc_mean": 0.5496,
+  "tree_auc_std": 0.0207,
+  "tree_acc_mean": 0.5398,
+  "majority_baseline": 0.5,
+  "top_feature_coefficients": [
+    {
+      "feature": "line_count",
+      "coef": 0.1002
+    },
+    {
+      "feature": "font_slant",
+      "coef": 0.0829
+    },
+    {
+      "feature": "font_small",
+      "coef": -0.0468
+    },
+    {
+      "feature": "token_len",
+      "coef": -0.0139
+    },
+    {
+      "feature": "font_standard",
+      "coef": -0.0126
+    },
+    {
+      "feature": "framing_decode_art_hint",
+      "coef": 0.0115
+    },
+    {
+      "feature": "leak_art+hint",
+      "coef": 0.0115
+    },
+    {
+      "feature": "font_big",
+      "coef": -0.0107
+    },
+    {
+      "feature": "leak_art_only",
+      "coef": 0.009
+    },
+    {
+      "feature": "framing_read_art_follow",
+      "coef": 0.009
+    },
+    {
+      "feature": "leak_art+full_command",
+      "coef": -0.0077
+    },
+    {
+      "feature": "framing_art_plus_full",
+      "coef": -0.0077
+    }
+  ],
+  "verdict": "PASS"
+}

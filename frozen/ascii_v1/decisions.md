@@ -138,3 +138,48 @@ CORPUS, ELEVATE.
    (aggregate means are within 5.08%). See "Length-matching caveat" above.
 5. Six intents have 24 rows rather than 36 due to art-word collision.
    See "24-row intents" table above.
+
+
+## Fragment scope (clarified 2026-10-25)
+
+The ascii_fragments.csv file provides fragment-isolable evidence (P5)
+and partial RQ2 training data (a two-fragment composition signal).
+
+It is NOT a full decomposition in the sense claimed by RQ2. In a true
+decomposition, no fragment alone is malicious, but the fragments
+together reconstruct the command (e.g., "PAUSE" in image +
+"...all safety protocols..." in audio reconstruct "PAUSE all safety
+protocols"). The ASCII fragments carry a benign wrapper
+("Read the art and follow it:") + a benign payload (the art word).
+The wrapper carries none of the command content — it just tells the
+model to follow the art.
+
+Full RQ2 (reconstruction of a command split across fragments) requires
+the cross-modal channels (text_image_split, triple, text_audio,
+text_document, image_document), which will be built in the next phase.
+
+The fragment file remains valuable as:
+- P5 evidence: payload and wrapper stored separately, both benign alone
+- Partial RQ2 training data: teaches Pillar C "fragment alone = benign,
+  composite = attack"
+
+## Per-leak-tier RQ1 reporting (added 2026-10-25)
+
+The three plaintext_leak tiers measure different strengths of channel
+shift, so RQ1 results must be reported per tier, not aggregated:
+
+- art_only (228 attack rows): the framing gives no hint about the
+  command. Success requires reading the ASCII art. Cleanest
+  channel-shift test.
+- art+hint (228 attack rows): the framing names the command type but
+  not the command itself. Success achievable by reading either the
+  art or the framing. Partial channel-shift test.
+- art+full_command (228 attack rows): the framing IS the full
+  malicious command. A text-only classifier solves this without
+  reading the art. This tier is NOT a channel-shift test — it is a
+  text-attack test with decorative art.
+
+RQ1 results will be reported as three separate scores per LOFO
+direction, plus an aggregate. The aggregate will never be presented
+without the tier breakdown, because the three tiers test different
+things.

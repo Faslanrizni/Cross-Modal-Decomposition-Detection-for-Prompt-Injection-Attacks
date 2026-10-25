@@ -277,10 +277,12 @@ if frags is None:
     check(False, "ASCII fragments load")
 else:
     check(True, f"ASCII fragments load ({len(frags)} rows)")
-    check(len(frags) == 1368, f"Total fragment rows 1368: {len(frags)}")
+    check(len(frags) == 912, f"Total fragment rows 912: {len(frags)}")
 
     # Every attack has exactly 2 fragments
-    attack_ids = set(r["id"] for r in ascii_rows if r["label"] == "attack")
+    attack_ids = set(r["id"] for r in ascii_rows 
+                 if r["label"] == "attack" 
+                 and r["plaintext_leak"] in ("art_only", "art+hint"))
     frags_by_sample = {}
     for f in frags:
         frags_by_sample.setdefault(f["sample_id"], []).append(f)
@@ -293,8 +295,8 @@ else:
 
     # Fragment roles
     roles = Counter(f["fragment_role"] for f in frags)
-    check(roles.get("wrapper", 0) == 684, f"684 wrapper fragments: {roles.get('wrapper', 0)}")
-    check(roles.get("payload", 0) == 684, f"684 payload fragments: {roles.get('payload', 0)}")
+    check(roles.get("wrapper", 0) == 456, f"456 wrapper fragments: {roles.get('wrapper', 0)}")
+    check(roles.get("payload", 0) == 456, f"456 payload fragments: {roles.get('payload', 0)}")
 
 print("\n--- B3. ASCII taxonomy ---")
 tax = load_json("ascii_dataset/intent_taxonomy.json")

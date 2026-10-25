@@ -184,3 +184,26 @@ frozen/qr_v1/CHANGELOG.md and frozen/qr_v2/CHANGELOG.md.
    text or homoglyph training family is added.
 4. qr_v1 (superseded) contained a coverage bug that reported 21/21
    instead of 11/21 for testable_in_qr_lofo. Use qr_v2.
+
+## Modality choice for RQ1 evaluation (added 2026-10-25)
+
+The QR channel stores both the PNG image (`png` column) and the decoded
+payload text (`text` column, equal to `payload`). Three valid paths
+exist, each measuring a different claim:
+
+1. CLIP on PNG (primary RQ1): model reads the actual QR image via
+   frozen CLIP ViT-B/32. Measures text→image cross-modal
+   generalisation. This is the primary RQ1 test.
+
+2. MiniLM on decoded payload (prototype): model reads the payload text
+   via frozen MiniLM. Measures cross-textual-encoding generalisation
+   (art-wrapped text → payload text). Cheaper to run; NOT a genuine
+   image-channel test.
+
+3. Both (fused): PNG → CLIP and payload → MiniLM, concatenated.
+   Measures full multimodal generalisation.
+
+The primary RQ1 experiment uses path 1 (CLIP on PNG). Prototype
+experiments may use path 2, with the explicit caveat that results are
+not comparable to path 1. Every reported RQ1 result will state which
+path was used.

@@ -1,0 +1,9 @@
+{
+  "seed": 42,
+  "tokenizer": "sentence-transformers/all-MiniLM-L6-v2",
+  "n_intents": 21,
+  "n_phrasings_per_intent": 2,
+  "n_benign_pool": 56,
+  "version": "1.1",
+  "uniqueness_rule": "global (across all intents)"
+}

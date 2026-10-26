@@ -1,0 +1,74 @@
+{
+  "plain": {
+    "n_tokens": 4,
+    "unk": 0,
+    "unk_pct": 0.0,
+    "same_as_plain": true
+  },
+  "cyrillic": {
+    "n_tokens": 9,
+    "unk": 2,
+    "unk_pct": 22.2,
+    "same_as_plain": false
+  },
+  "greek": {
+    "n_tokens": 24,
+    "unk": 0,
+    "unk_pct": 0.0,
+    "same_as_plain": false
+  },
+  "fullwidth": {
+    "n_tokens": 4,
+    "unk": 4,
+    "unk_pct": 100.0,
+    "same_as_plain": false
+  },
+  "circled": {
+    "n_tokens": 4,
+    "unk": 4,
+    "unk_pct": 100.0,
+    "same_as_plain": false
+  },
+  "zero_width": {
+    "n_tokens": 4,
+    "unk": 0,
+    "unk_pct": 0.0,
+    "same_as_plain": true
+  },
+  "combining": {
+    "n_tokens": 4,
+    "unk": 0,
+    "unk_pct": 0.0,
+    "same_as_plain": true
+  },
+  "math_bold": {
+    "n_tokens": 4,
+    "unk": 4,
+    "unk_pct": 100.0,
+    "same_as_plain": false
+  },
+  "math_double": {
+    "n_tokens": 4,
+    "unk": 4,
+    "unk_pct": 100.0,
+    "same_as_plain": false
+  },
+  "squared": {
+    "n_tokens": 4,
+    "unk": 4,
+    "unk_pct": 100.0,
+    "same_as_plain": false
+  },
+  "small_roman": {
+    "n_tokens": 4,
+    "unk": 3,
+    "unk_pct": 75.0,
+    "same_as_plain": false
+  },
+  "unicode_tags": {
+    "n_tokens": 0,
+    "unk": 0,
+    "unk_pct": 0,
+    "same_as_plain": false
+  }
+}

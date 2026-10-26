@@ -1,0 +1,11 @@
+{
+  "split_name": "lofo_plain_held_out",
+  "seed": 42,
+  "test_families": [
+    "plain"
+  ],
+  "train_families": [
+    "ascii_art",
+    "qr"
+  ]
+}

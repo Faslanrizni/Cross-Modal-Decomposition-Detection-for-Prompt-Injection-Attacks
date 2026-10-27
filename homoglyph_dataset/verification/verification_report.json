@@ -1,0 +1,21 @@
+{
+  "n_rows": 630,
+  "n_main": 504,
+  "n_control": 126,
+  "fold_back_failures": [],
+  "empty_text": [],
+  "duplicates_within_label": [],
+  "duplicates_across_labels": [],
+  "natural_benigns": 37,
+  "natural_fraction": 0.1175,
+  "technique_counts": {
+    "cyrillic": 234,
+    "none": 37,
+    "greek": 233,
+    "zero_width": 42,
+    "combining": 42,
+    "unicode_tags": 42
+  },
+  "hand_review_rows": 28,
+  "verdict": "PASS"
+}

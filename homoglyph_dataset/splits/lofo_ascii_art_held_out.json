@@ -1,0 +1,12 @@
+{
+  "split_name": "lofo_ascii_art_held_out",
+  "seed": 42,
+  "test_families": [
+    "ascii_art"
+  ],
+  "train_families": [
+    "qr",
+    "plain",
+    "homoglyph"
+  ]
+}

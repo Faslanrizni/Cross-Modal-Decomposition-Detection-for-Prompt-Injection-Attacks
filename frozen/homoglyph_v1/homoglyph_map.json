@@ -1,0 +1,94 @@
+{
+  "version": "1.0",
+  "created": "2026-10-27",
+  "based_on_diagnostic": "tokenizer_diagnostic.json (measured on all-MiniLM-L6-v2)",
+  "techniques": {
+    "cyrillic": {
+      "channel": "main",
+      "mechanism": "substitution",
+      "description": "Replace Latin letters with visually identical Cyrillic lookalikes",
+      "forward": {
+        "a": "а", "c": "с", "e": "е", "i": "і", "j": "ј",
+        "o": "о", "p": "р", "x": "х", "y": "у",
+        "A": "А", "B": "В", "C": "С", "E": "Е", "H": "Н",
+        "I": "І", "J": "Ј", "K": "К", "M": "М", "O": "О",
+        "P": "Р", "T": "Т", "X": "Х", "Y": "У"
+        },
+      "inverse": {
+        "а": "a", "с": "c", "е": "e", "і": "i", "ј": "j",
+        "о": "o", "р": "p", "х": "x", "у": "y",
+        "А": "A", "В": "B", "С": "C", "Е": "E", "Н": "H",
+        "І": "I", "Ј": "J", "К": "K", "М": "M", "О": "O",
+        "Р": "P", "Т": "T", "Х": "X", "У": "Y"
+        },
+      "density_levels": [0.3, 0.6],
+      "diagnostic_unk_pct": 0.0,
+      "script_mix": "Latin+Cyrillic",
+      "diagnostic_note": "original 22.2% UNK was entirely from S/Ѕ and s/ѕ; both removed 2026-10-27"
+    },
+    "greek": {
+      "channel": "main",
+      "mechanism": "substitution",
+      "description": "Replace Latin letters with visually similar Greek letters",
+      "forward": {
+        "a": "α", "e": "ε", "i": "ι", "k": "κ", "n": "η",
+        "o": "ο", "p": "ρ", "t": "τ", "u": "υ", "v": "ν",
+        "x": "χ", "A": "Α", "B": "Β", "E": "Ε", "H": "Η",
+        "I": "Ι", "K": "Κ", "M": "Μ", "N": "Ν", "O": "Ο",
+        "P": "Ρ", "T": "Τ", "X": "Χ", "Y": "Υ", "Z": "Ζ"
+      },
+      "inverse": {
+        "α": "a", "ε": "e", "ι": "i", "κ": "k", "η": "n",
+        "ο": "o", "ρ": "p", "τ": "t", "υ": "u", "ν": "v",
+        "χ": "x", "Α": "A", "Β": "B", "Ε": "E", "Η": "H",
+        "Ι": "I", "Κ": "K", "Μ": "M", "Ν": "N", "Ο": "O",
+        "Ρ": "P", "Τ": "T", "Χ": "X", "Υ": "Y", "Ζ": "Z"
+      },
+      "density_levels": [0.3, 0.6],
+      "diagnostic_unk_pct": 0.0,
+      "script_mix": "Latin+Greek"
+    },
+    "zero_width": {
+      "channel": "control",
+      "mechanism": "insertion",
+      "description": "Insert ZWSP between characters",
+      "insert_char": "\u200b",
+      "density_levels": [0.6],
+      "diagnostic_unk_pct": 0.0,
+      "diagnostic_neutralised": true,
+      "script_mix": "Latin+ZWSP"
+    },
+    "combining": {
+      "channel": "control",
+      "mechanism": "marks",
+      "description": "Add combining diaeresis to vowels",
+      "combining_char": "\u0308",
+      "target_chars": "aeiouAEIOU",
+      "density_levels": [0.6],
+      "diagnostic_unk_pct": 0.0,
+      "diagnostic_neutralised": true,
+      "script_mix": "Latin+CombiningMarks"
+    },
+    "unicode_tags": {
+      "channel": "control",
+      "mechanism": "invisible",
+      "description": "Tag-codepoint version of the text (U+E0000 range)",
+      "tag_offset": 917504,
+      "density_levels": [1.0],
+      "diagnostic_unk_pct": 0.0,
+      "diagnostic_invisible": true,
+      "script_mix": "UnicodeTagsOnly"
+    }
+  },
+  "excluded": [
+    {"technique": "fullwidth", "reason": "100% UNK — model receives no perceivable content"},
+    {"technique": "circled", "reason": "100% UNK — model receives no perceivable content"},
+    {"technique": "math_bold", "reason": "100% UNK"},
+    {"technique": "math_double", "reason": "100% UNK"},
+    {"technique": "squared", "reason": "100% UNK"},
+    {"technique": "small_roman", "reason": "75% UNK"},
+    {"technique": "rtl_override", "reason": "Directionality breaks text order — out of scope"},
+    {"technique": "soft_hyphen", "reason": "Not in map; would be stripped"},
+    {"technique": "bom_insertion", "reason": "Zero-width class; covered by control stratum"}
+  ]
+}

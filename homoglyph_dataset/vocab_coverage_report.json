@@ -1,0 +1,14 @@
+{
+  "cyrillic": {
+    "total": 23,
+    "in_vocab": 23,
+    "out_vocab": 0,
+    "out_vocab_pairs": []
+  },
+  "greek": {
+    "total": 25,
+    "in_vocab": 25,
+    "out_vocab": 0,
+    "out_vocab_pairs": []
+  }
+}

@@ -1,0 +1,21 @@
+sample_id,decision,reason
+RAW-HGL-000001,keep,"Cyrillic lookalikes (і, о, е) — main channel"
+RAW-HGL-000002,control,Zero-width space — control stratum
+RAW-HGL-000003,flag,"RTL override — breaks text directionality, out of scope"
+RAW-HGL-000004,flag,"Small Roman numerals — 75% UNK, excluded"
+RAW-HGL-000005,flag,"Soft hyphen — stripped by tokenizer, out of scope"
+RAW-HGL-000006,control,"Word joiner — zero-width class, control stratum"
+RAW-HGL-000007,flag,"Math bold italic — 100% UNK, excluded"
+RAW-HGL-000008,flag,"Squared Latin letters — 100% UNK, excluded"
+RAW-HGL-000009,control,Combining dot above — control stratum
+RAW-HGL-000010,flag,Braille blank — not in our technique set
+RAW-HGL-000011,flag,"Cyrillic п + leetspeak — hybrid, not pure homoglyph"
+RAW-HGL-000012,control,"BOM insertion — zero-width class, control stratum"
+RAW-HGL-000013,flag,"Circled Latin — 100% UNK, excluded"
+RAW-HGL-000014,flag,"Fullwidth — 100% UNK, excluded"
+RAW-HGL-000015,control,Unicode tag characters — control stratum
+RAW-HGL-000016,keep,"Cyrillic lookalikes (є, а) — main channel"
+RAW-HGL-000017,flag,Superscript — not in our set
+RAW-HGL-000018,flag,"Math double-struck — 100% UNK, excluded"
+RAW-HGL-000019,control,Combining diacritics — control stratum
+RAW-HGL-000020,control,Zero-width non-joiner — control stratum

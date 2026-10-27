@@ -1,0 +1,21 @@
+{
+  "seed": 42,
+  "tokenizer": "sentence-transformers/all-MiniLM-L6-v2",
+  "version": "2.0",
+  "main_techniques": [
+    "cyrillic",
+    "greek"
+  ],
+  "control_techniques": [
+    "zero_width",
+    "combining",
+    "unicode_tags"
+  ],
+  "provenance": {
+    "dataset_revision": "folder_sha256=6d998f3840d866cb9fc4e470541a37cb266ae9d71f0c8ce512c9b6bef724ba26",
+    "derivation_hash_phrasings": "sha256=f812310b62fccc423a98c31b8a3f33b724c554d46fec9a8780b254caaf19df77",
+    "derivation_hash_map": "sha256=0b97da8b0dd428d10d23ed6219b76c2149ca2c8b683d32fe0f5849b592260b78",
+    "derivation_hash_natural": "sha256=dd0886ef293ed5012576b6ea34f40728b1442b6e6301ad2df8394609bd0d2b28"
+  },
+  "note": "v2 applies: Fix 3 (4 hashes), Fix 5a (benign_kind), Fix 5b (natural skip fold-back), Process C (stable hashing)"
+}

@@ -1,0 +1,23 @@
+{
+  "total_rows": 630,
+  "main_rows": 504,
+  "control_rows": 126,
+  "attack_rows": 315,
+  "benign_rows": 315,
+  "natural_benigns": 37,
+  "natural_fraction": 0.1175,
+  "unique_pairs": 315,
+  "unique_intents": 21,
+  "fold_back_failures": 0,
+  "techniques": {
+    "main": [
+      "cyrillic",
+      "greek"
+    ],
+    "control": [
+      "zero_width",
+      "combining",
+      "unicode_tags"
+    ]
+  }
+}

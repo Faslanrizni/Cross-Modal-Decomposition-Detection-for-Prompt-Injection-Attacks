@@ -1,0 +1,8 @@
+{
+  "in_family_auc_mean": 0.8953,
+  "in_family_acc_mean": 0.8017,
+  "n_rows": 504,
+  "n_folds_used": 5,
+  "interpretation": "READABLE",
+  "action": "Proceed with LOFO evaluation"
+}

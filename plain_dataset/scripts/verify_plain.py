@@ -1,4 +1,22 @@
-"""verify_plain.py — six-check verifier for plain text channel."""
+"""verify_plain.py — six-check verifier for plain text channel.
+
+Six checks:
+
+Non-empty text — no row is blank
+
+No attack vocabulary in benign — the ATTACK_WORDS regex is scanned on every benign row
+
+No duplicates within label — no two benign texts are identical; no two attack texts are identical
+
+No duplicates across label — no text appears as both attack and benign
+
+Distribution comparison — attack and benign means are comparable
+
+Hand-review sampling — 10 rows selected for manual check
+
+Output: verification_report.json with verdict: PASS.
+
+"""
 import csv
 import json
 import re

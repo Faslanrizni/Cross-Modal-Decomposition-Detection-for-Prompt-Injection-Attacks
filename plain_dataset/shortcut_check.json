@@ -1,9 +1,9 @@
 {
   "seed": 42,
   "cv": "GroupKFold(n_splits=5) grouped by intent_id",
-  "logreg_auc_mean": 0.6155,
-  "logreg_auc_std": 0.1661,
-  "tree_auc_mean": 0.5683,
+  "logreg_auc_mean": 0.5232,
+  "logreg_auc_std": 0.0256,
+  "tree_auc_mean": 0.5572,
   "majority_baseline": 0.5,
-  "verdict": "MINOR LEAKAGE"
+  "verdict": "PASS"
 }

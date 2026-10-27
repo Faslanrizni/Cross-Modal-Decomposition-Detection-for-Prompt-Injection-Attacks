@@ -1,0 +1,22 @@
+{
+  "n_rows": 126,
+  "unchanged_failures": [],
+  "benign_with_attack_words": [],
+  "duplicates_within_label": {},
+  "duplicates_across_labels": {},
+  "distribution": {
+    "attack": {
+      "n": 63,
+      "mean": 14.21,
+      "min": 4,
+      "max": 33
+    },
+    "benign": {
+      "n": 63,
+      "mean": 14.27,
+      "min": 4,
+      "max": 33
+    }
+  },
+  "verdict": "PASS"
+}

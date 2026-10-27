@@ -13,7 +13,7 @@ OUT = Path("plain_dataset/shortcut_check.json")
 
 rows = list(csv.DictReader(MANIFEST.open(encoding="utf-8-sig")))
 y = np.array([1 if r["label"] == "attack" else 0 for r in rows])
-groups = np.array([r["intent_id"] for r in rows])
+groups = np.array([r["split_group"] for r in rows])
 
 def trailing_ws(t): return len(t) - len(t.rstrip())
 def leading_ws(t): return len(t) - len(t.lstrip())
@@ -24,7 +24,7 @@ X = np.array([
 ], dtype=float)
 
 print(f"X shape: {X.shape}, y: {y.shape}")
-print(f"unique intents (groups): {len(set(groups))}")
+print(f"unique split_groups (groups): {len(set(groups))}")
 
 n_folds = min(5, len(set(groups)))
 gkf = GroupKFold(n_splits=n_folds)
@@ -48,7 +48,7 @@ def mean(xs): return float(np.mean(xs)) if xs else 0.0
 
 summary = {
     "seed": SEED,
-    "cv": f"GroupKFold(n_splits={n_folds}) grouped by intent_id",
+    "cv": f"GroupKFold(n_splits={n_folds}) grouped by split_group",
     "logreg_auc_mean": round(mean(results["logreg"]["auc"]), 4),
     "logreg_auc_std": round(float(np.std(results["logreg"]["auc"])), 4),
     "tree_auc_mean": round(mean(results["tree"]["auc"]), 4),

@@ -1,0 +1,27 @@
+{
+  "total_rows": 126,
+  "attack_rows": 63,
+  "benign_rows": 63,
+  "unique_pairs": 63,
+  "unique_intents": 21,
+  "token_len_attack": {
+    "mean": 14.21,
+    "min": 4,
+    "max": 33
+  },
+  "token_len_benign": {
+    "mean": 14.27,
+    "min": 4,
+    "max": 33
+  },
+  "char_len_attack": {
+    "mean": 77.41,
+    "min": 17,
+    "max": 172
+  },
+  "char_len_benign": {
+    "mean": 76.6,
+    "min": 18,
+    "max": 164
+  }
+}

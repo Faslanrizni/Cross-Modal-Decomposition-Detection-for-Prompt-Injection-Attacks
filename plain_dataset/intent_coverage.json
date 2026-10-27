@@ -8,7 +8,7 @@
     "counts": {
       "ascii_art": 36,
       "qr": 1,
-      "plain": 2
+      "plain": 3
     },
     "testable_in_ascii_art_lofo": true,
     "testable_in_qr_lofo": true,
@@ -21,7 +21,7 @@
     ],
     "counts": {
       "ascii_art": 36,
-      "plain": 2
+      "plain": 3
     },
     "testable_in_ascii_art_lofo": true,
     "testable_in_qr_lofo": false,
@@ -36,7 +36,7 @@
     "counts": {
       "ascii_art": 36,
       "qr": 1,
-      "plain": 2
+      "plain": 3
     },
     "testable_in_ascii_art_lofo": true,
     "testable_in_qr_lofo": true,
@@ -51,7 +51,7 @@
     "counts": {
       "ascii_art": 24,
       "qr": 1,
-      "plain": 2
+      "plain": 3
     },
     "testable_in_ascii_art_lofo": true,
     "testable_in_qr_lofo": true,
@@ -66,7 +66,7 @@
     "counts": {
       "ascii_art": 36,
       "qr": 1,
-      "plain": 2
+      "plain": 3
     },
     "testable_in_ascii_art_lofo": true,
     "testable_in_qr_lofo": true,
@@ -79,7 +79,7 @@
     ],
     "counts": {
       "ascii_art": 24,
-      "plain": 2
+      "plain": 3
     },
     "testable_in_ascii_art_lofo": true,
     "testable_in_qr_lofo": false,
@@ -94,7 +94,7 @@
     "counts": {
       "ascii_art": 36,
       "qr": 1,
-      "plain": 2
+      "plain": 3
     },
     "testable_in_ascii_art_lofo": true,
     "testable_in_qr_lofo": true,
@@ -107,7 +107,7 @@
     ],
     "counts": {
       "ascii_art": 24,
-      "plain": 2
+      "plain": 3
     },
     "testable_in_ascii_art_lofo": true,
     "testable_in_qr_lofo": false,
@@ -120,7 +120,7 @@
     ],
     "counts": {
       "ascii_art": 36,
-      "plain": 2
+      "plain": 3
     },
     "testable_in_ascii_art_lofo": true,
     "testable_in_qr_lofo": false,
@@ -135,7 +135,7 @@
     "counts": {
       "ascii_art": 36,
       "qr": 2,
-      "plain": 2
+      "plain": 3
     },
     "testable_in_ascii_art_lofo": true,
     "testable_in_qr_lofo": true,
@@ -150,7 +150,7 @@
     "counts": {
       "ascii_art": 36,
       "qr": 3,
-      "plain": 2
+      "plain": 3
     },
     "testable_in_ascii_art_lofo": true,
     "testable_in_qr_lofo": true,
@@ -165,7 +165,7 @@
     "counts": {
       "ascii_art": 36,
       "qr": 2,
-      "plain": 2
+      "plain": 3
     },
     "testable_in_ascii_art_lofo": true,
     "testable_in_qr_lofo": true,
@@ -178,7 +178,7 @@
     ],
     "counts": {
       "ascii_art": 36,
-      "plain": 2
+      "plain": 3
     },
     "testable_in_ascii_art_lofo": true,
     "testable_in_qr_lofo": false,
@@ -191,7 +191,7 @@
     ],
     "counts": {
       "ascii_art": 36,
-      "plain": 2
+      "plain": 3
     },
     "testable_in_ascii_art_lofo": true,
     "testable_in_qr_lofo": false,
@@ -206,7 +206,7 @@
     "counts": {
       "ascii_art": 36,
       "qr": 1,
-      "plain": 2
+      "plain": 3
     },
     "testable_in_ascii_art_lofo": true,
     "testable_in_qr_lofo": true,
@@ -219,7 +219,7 @@
     ],
     "counts": {
       "ascii_art": 24,
-      "plain": 2
+      "plain": 3
     },
     "testable_in_ascii_art_lofo": true,
     "testable_in_qr_lofo": false,
@@ -232,7 +232,7 @@
     ],
     "counts": {
       "ascii_art": 36,
-      "plain": 2
+      "plain": 3
     },
     "testable_in_ascii_art_lofo": true,
     "testable_in_qr_lofo": false,
@@ -245,7 +245,7 @@
     ],
     "counts": {
       "ascii_art": 24,
-      "plain": 2
+      "plain": 3
     },
     "testable_in_ascii_art_lofo": true,
     "testable_in_qr_lofo": false,
@@ -260,7 +260,7 @@
     "counts": {
       "ascii_art": 36,
       "qr": 1,
-      "plain": 2
+      "plain": 3
     },
     "testable_in_ascii_art_lofo": true,
     "testable_in_qr_lofo": true,
@@ -273,7 +273,7 @@
     ],
     "counts": {
       "ascii_art": 24,
-      "plain": 2
+      "plain": 3
     },
     "testable_in_ascii_art_lofo": true,
     "testable_in_qr_lofo": false,
@@ -288,7 +288,7 @@
     "counts": {
       "ascii_art": 36,
       "qr": 1,
-      "plain": 2
+      "plain": 3
     },
     "testable_in_ascii_art_lofo": true,
     "testable_in_qr_lofo": true,

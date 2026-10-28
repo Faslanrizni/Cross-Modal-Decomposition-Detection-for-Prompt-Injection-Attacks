@@ -1,0 +1,16 @@
+{
+  "n_attack_pairs_total": 667,
+  "n_strict_pairs": 603,
+  "n_relaxed_pairs": 64,
+  "n_excluded_attacks": 17,
+  "strict_pct_of_manifest": 0.904,
+  "relaxed_pct_of_manifest": 0.096,
+  "delta_mean_s_strict": 0.197,
+  "delta_max_s_strict": 2.144,
+  "delta_mean_s_relaxed": 1.56,
+  "delta_max_s_relaxed": 1.984,
+  "tolerance_strict_pct": 10,
+  "tolerance_relaxed_pct": 20,
+  "unique_benign_texts_used": 251,
+  "max_reuses_per_benign": 4
+}

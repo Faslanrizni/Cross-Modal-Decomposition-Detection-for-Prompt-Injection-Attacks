@@ -1,0 +1,380 @@
+{
+  "activate_maintenance_mode": {
+    "families": [
+      "ascii_art",
+      "qr",
+      "plain",
+      "homoglyph"
+    ],
+    "counts": {
+      "ascii_art": 36,
+      "qr": 1,
+      "plain": 3,
+      "homoglyph": 12
+    },
+    "testable_in_ascii_art_lofo": true,
+    "testable_in_qr_lofo": true,
+    "testable_in_plain_lofo": true,
+    "testable_in_homoglyph_lofo": true
+  },
+  "activate_sudo_mode": {
+    "families": [
+      "ascii_art",
+      "qr",
+      "plain",
+      "homoglyph"
+    ],
+    "counts": {
+      "ascii_art": 36,
+      "qr": 2,
+      "plain": 3,
+      "homoglyph": 12
+    },
+    "testable_in_ascii_art_lofo": true,
+    "testable_in_qr_lofo": true,
+    "testable_in_plain_lofo": true,
+    "testable_in_homoglyph_lofo": true
+  },
+  "append_hidden_instructions": {
+    "families": [
+      "ascii_art",
+      "qr",
+      "plain",
+      "homoglyph"
+    ],
+    "counts": {
+      "ascii_art": 36,
+      "qr": 1,
+      "plain": 3,
+      "homoglyph": 12
+    },
+    "testable_in_ascii_art_lofo": true,
+    "testable_in_qr_lofo": true,
+    "testable_in_plain_lofo": true,
+    "testable_in_homoglyph_lofo": true
+  },
+  "bypass_all_filters": {
+    "families": [
+      "ascii_art",
+      "qr",
+      "plain",
+      "homoglyph"
+    ],
+    "counts": {
+      "ascii_art": 24,
+      "qr": 1,
+      "plain": 3,
+      "homoglyph": 12
+    },
+    "testable_in_ascii_art_lofo": true,
+    "testable_in_qr_lofo": true,
+    "testable_in_plain_lofo": true,
+    "testable_in_homoglyph_lofo": true
+  },
+  "disable_safety_rules": {
+    "families": [
+      "ascii_art",
+      "qr",
+      "plain",
+      "homoglyph"
+    ],
+    "counts": {
+      "ascii_art": 36,
+      "qr": 1,
+      "plain": 3,
+      "homoglyph": 12
+    },
+    "testable_in_ascii_art_lofo": true,
+    "testable_in_qr_lofo": true,
+    "testable_in_plain_lofo": true,
+    "testable_in_homoglyph_lofo": true
+  },
+  "disclose_training_data": {
+    "families": [
+      "ascii_art",
+      "qr",
+      "plain",
+      "homoglyph"
+    ],
+    "counts": {
+      "ascii_art": 24,
+      "qr": 2,
+      "plain": 3,
+      "homoglyph": 12
+    },
+    "testable_in_ascii_art_lofo": true,
+    "testable_in_qr_lofo": true,
+    "testable_in_plain_lofo": true,
+    "testable_in_homoglyph_lofo": true
+  },
+  "fabricate_false_information": {
+    "families": [
+      "ascii_art",
+      "qr",
+      "plain",
+      "homoglyph"
+    ],
+    "counts": {
+      "ascii_art": 36,
+      "qr": 1,
+      "plain": 3,
+      "homoglyph": 12
+    },
+    "testable_in_ascii_art_lofo": true,
+    "testable_in_qr_lofo": true,
+    "testable_in_plain_lofo": true,
+    "testable_in_homoglyph_lofo": true
+  },
+  "grant_admin_access": {
+    "families": [
+      "ascii_art",
+      "qr",
+      "plain",
+      "homoglyph"
+    ],
+    "counts": {
+      "ascii_art": 24,
+      "qr": 2,
+      "plain": 3,
+      "homoglyph": 12
+    },
+    "testable_in_ascii_art_lofo": true,
+    "testable_in_qr_lofo": true,
+    "testable_in_plain_lofo": true,
+    "testable_in_homoglyph_lofo": true
+  },
+  "hijack_session": {
+    "families": [
+      "ascii_art",
+      "qr",
+      "plain",
+      "homoglyph"
+    ],
+    "counts": {
+      "ascii_art": 36,
+      "qr": 2,
+      "plain": 3,
+      "homoglyph": 12
+    },
+    "testable_in_ascii_art_lofo": true,
+    "testable_in_qr_lofo": true,
+    "testable_in_plain_lofo": true,
+    "testable_in_homoglyph_lofo": true
+  },
+  "ignore_previous_instructions": {
+    "families": [
+      "ascii_art",
+      "qr",
+      "plain",
+      "homoglyph"
+    ],
+    "counts": {
+      "ascii_art": 36,
+      "qr": 2,
+      "plain": 3,
+      "homoglyph": 12
+    },
+    "testable_in_ascii_art_lofo": true,
+    "testable_in_qr_lofo": true,
+    "testable_in_plain_lofo": true,
+    "testable_in_homoglyph_lofo": true
+  },
+  "label_content_safe": {
+    "families": [
+      "ascii_art",
+      "qr",
+      "plain",
+      "homoglyph"
+    ],
+    "counts": {
+      "ascii_art": 36,
+      "qr": 3,
+      "plain": 3,
+      "homoglyph": 12
+    },
+    "testable_in_ascii_art_lofo": true,
+    "testable_in_qr_lofo": true,
+    "testable_in_plain_lofo": true,
+    "testable_in_homoglyph_lofo": true
+  },
+  "label_document_approved": {
+    "families": [
+      "ascii_art",
+      "qr",
+      "plain",
+      "homoglyph"
+    ],
+    "counts": {
+      "ascii_art": 36,
+      "qr": 2,
+      "plain": 3,
+      "homoglyph": 12
+    },
+    "testable_in_ascii_art_lofo": true,
+    "testable_in_qr_lofo": true,
+    "testable_in_plain_lofo": true,
+    "testable_in_homoglyph_lofo": true
+  },
+  "leak_api_key": {
+    "families": [
+      "ascii_art",
+      "qr",
+      "plain",
+      "homoglyph"
+    ],
+    "counts": {
+      "ascii_art": 36,
+      "qr": 2,
+      "plain": 3,
+      "homoglyph": 12
+    },
+    "testable_in_ascii_art_lofo": true,
+    "testable_in_qr_lofo": true,
+    "testable_in_plain_lofo": true,
+    "testable_in_homoglyph_lofo": true
+  },
+  "output_system_configuration": {
+    "families": [
+      "ascii_art",
+      "qr",
+      "plain",
+      "homoglyph"
+    ],
+    "counts": {
+      "ascii_art": 36,
+      "qr": 2,
+      "plain": 3,
+      "homoglyph": 12
+    },
+    "testable_in_ascii_art_lofo": true,
+    "testable_in_qr_lofo": true,
+    "testable_in_plain_lofo": true,
+    "testable_in_homoglyph_lofo": true
+  },
+  "override_safety_protocols": {
+    "families": [
+      "ascii_art",
+      "qr",
+      "plain",
+      "homoglyph"
+    ],
+    "counts": {
+      "ascii_art": 36,
+      "qr": 1,
+      "plain": 3,
+      "homoglyph": 12
+    },
+    "testable_in_ascii_art_lofo": true,
+    "testable_in_qr_lofo": true,
+    "testable_in_plain_lofo": true,
+    "testable_in_homoglyph_lofo": true
+  },
+  "print_internal_data": {
+    "families": [
+      "ascii_art",
+      "qr",
+      "plain",
+      "homoglyph"
+    ],
+    "counts": {
+      "ascii_art": 24,
+      "qr": 2,
+      "plain": 3,
+      "homoglyph": 12
+    },
+    "testable_in_ascii_art_lofo": true,
+    "testable_in_qr_lofo": true,
+    "testable_in_plain_lofo": true,
+    "testable_in_homoglyph_lofo": true
+  },
+  "provide_hacking_instructions": {
+    "families": [
+      "ascii_art",
+      "qr",
+      "plain",
+      "homoglyph"
+    ],
+    "counts": {
+      "ascii_art": 36,
+      "qr": 2,
+      "plain": 3,
+      "homoglyph": 12
+    },
+    "testable_in_ascii_art_lofo": true,
+    "testable_in_qr_lofo": true,
+    "testable_in_plain_lofo": true,
+    "testable_in_homoglyph_lofo": true
+  },
+  "reveal_admin_passphrase": {
+    "families": [
+      "ascii_art",
+      "qr",
+      "plain",
+      "homoglyph"
+    ],
+    "counts": {
+      "ascii_art": 24,
+      "qr": 2,
+      "plain": 3,
+      "homoglyph": 12
+    },
+    "testable_in_ascii_art_lofo": true,
+    "testable_in_qr_lofo": true,
+    "testable_in_plain_lofo": true,
+    "testable_in_homoglyph_lofo": true
+  },
+  "reveal_api_endpoints": {
+    "families": [
+      "ascii_art",
+      "qr",
+      "plain",
+      "homoglyph"
+    ],
+    "counts": {
+      "ascii_art": 36,
+      "qr": 1,
+      "plain": 3,
+      "homoglyph": 12
+    },
+    "testable_in_ascii_art_lofo": true,
+    "testable_in_qr_lofo": true,
+    "testable_in_plain_lofo": true,
+    "testable_in_homoglyph_lofo": true
+  },
+  "reveal_credentials": {
+    "families": [
+      "ascii_art",
+      "qr",
+      "plain",
+      "homoglyph"
+    ],
+    "counts": {
+      "ascii_art": 24,
+      "qr": 2,
+      "plain": 3,
+      "homoglyph": 12
+    },
+    "testable_in_ascii_art_lofo": true,
+    "testable_in_qr_lofo": true,
+    "testable_in_plain_lofo": true,
+    "testable_in_homoglyph_lofo": true
+  },
+  "reveal_system_prompt_verbatim": {
+    "families": [
+      "ascii_art",
+      "qr",
+      "plain",
+      "homoglyph"
+    ],
+    "counts": {
+      "ascii_art": 36,
+      "qr": 1,
+      "plain": 3,
+      "homoglyph": 12
+    },
+    "testable_in_ascii_art_lofo": true,
+    "testable_in_qr_lofo": true,
+    "testable_in_plain_lofo": true,
+    "testable_in_homoglyph_lofo": true
+  }
+}

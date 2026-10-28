@@ -1,0 +1,18 @@
+﻿v4_id,attack_category,voice_id,duration_s,reason
+V4TA-000487,cipher_jailbreaks,voice_male,39.552,no benign within ±20% of 39.55s for AUD-000613 (voice=voice_male). Add longer benigns to phrasings.json or raise TOL_RELAXED.
+V4TA-000488,cipher_jailbreaks,voice_female,37.696,no benign within ±20% of 37.70s for AUD-000613 (voice=voice_female). Add longer benigns to phrasings.json or raise TOL_RELAXED.
+V4TA-000489,cipher_jailbreaks,voice_male,39.552,no benign within ±20% of 39.55s for AUD-000613 (voice=voice_male). Add longer benigns to phrasings.json or raise TOL_RELAXED.
+V4TA-000490,cipher_jailbreaks,voice_female,37.696,no benign within ±20% of 37.70s for AUD-000613 (voice=voice_female). Add longer benigns to phrasings.json or raise TOL_RELAXED.
+V4TA-000491,cipher_jailbreaks,voice_male,39.552,no benign within ±20% of 39.55s for AUD-000613 (voice=voice_male). Add longer benigns to phrasings.json or raise TOL_RELAXED.
+V4TA-000492,cipher_jailbreaks,voice_female,37.696,no benign within ±20% of 37.70s for AUD-000613 (voice=voice_female). Add longer benigns to phrasings.json or raise TOL_RELAXED.
+V4TA-001166,multi_agent_contagion,voice_female,9.92,no benign within ±20% of 9.92s for AUD-001119 (voice=voice_female). Add longer benigns to phrasings.json or raise TOL_RELAXED.
+V4TA-001168,multi_agent_contagion,voice_female,9.92,no benign within ±20% of 9.92s for AUD-001121 (voice=voice_female). Add longer benigns to phrasings.json or raise TOL_RELAXED.
+V4TA-001170,multi_agent_contagion,voice_female,9.92,no benign within ±20% of 9.92s for AUD-001123 (voice=voice_female). Add longer benigns to phrasings.json or raise TOL_RELAXED.
+V4TA-001232,multi_agent_contagion,voice_female,9.952,no benign within ±20% of 9.95s for AUD-001245 (voice=voice_female). Add longer benigns to phrasings.json or raise TOL_RELAXED.
+V4TA-001234,multi_agent_contagion,voice_female,9.952,no benign within ±20% of 9.95s for AUD-001247 (voice=voice_female). Add longer benigns to phrasings.json or raise TOL_RELAXED.
+V4TA-001236,multi_agent_contagion,voice_female,9.952,no benign within ±20% of 9.95s for AUD-001249 (voice=voice_female). Add longer benigns to phrasings.json or raise TOL_RELAXED.
+V4TA-001243,multi_agent_contagion,voice_male,10.048,no benign within ±20% of 10.05s for AUD-001261 (voice=voice_male). Add longer benigns to phrasings.json or raise TOL_RELAXED.
+V4TA-001245,multi_agent_contagion,voice_male,10.048,no benign within ±20% of 10.05s for AUD-001263 (voice=voice_male). Add longer benigns to phrasings.json or raise TOL_RELAXED.
+V4TA-001247,multi_agent_contagion,voice_male,10.048,no benign within ±20% of 10.05s for AUD-001265 (voice=voice_male). Add longer benigns to phrasings.json or raise TOL_RELAXED.
+V4TA-001270,multi_agent_contagion,voice_female,9.536,no benign within ±20% of 9.54s for AUD-001309 (voice=voice_female). Add longer benigns to phrasings.json or raise TOL_RELAXED.
+V4TA-001272,multi_agent_contagion,voice_female,9.536,no benign within ±20% of 9.54s for AUD-001311 (voice=voice_female). Add longer benigns to phrasings.json or raise TOL_RELAXED.

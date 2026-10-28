@@ -11,7 +11,7 @@ from pathlib import Path
 SEED = 42
 MANIFESTS = {
     "ascii_art": Path("ascii_dataset/manifest/ascii_manifest.csv"),
-    "qr": Path("qr_dataset/manifest_v3.csv"),
+    "qr": Path("qr_dataset/manifest_v4.csv"),
     "plain": Path("plain_dataset/manifest/plain_manifest.csv"),
     "homoglyph": Path("homoglyph_dataset/manifest/homoglyph_manifest.csv"),
 }
@@ -124,7 +124,8 @@ def split_of(key):
 
 for family, data in family_rows.items():
     for r in data["all"]:
-        r["split"] = split_of(row_intent(r))
+        if not r.get("split", "").strip():  # only fill empty splits
+            r["split"] = split_of(row_intent(r))
     path = MANIFESTS[family]
     with path.open("w", newline="", encoding="utf-8-sig") as f:
         w = csv.DictWriter(f, fieldnames=list(data["all"][0]))

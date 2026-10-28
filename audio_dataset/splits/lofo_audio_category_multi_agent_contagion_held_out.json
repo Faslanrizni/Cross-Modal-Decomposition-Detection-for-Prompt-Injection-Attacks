@@ -1,0 +1,22 @@
+{
+  "split_name": "lofo_audio_category_multi_agent_contagion_held_out",
+  "seed": 42,
+  "test_families": [
+    "audio"
+  ],
+  "test_audio_categories": [
+    "multi_agent_contagion"
+  ],
+  "train_families": [
+    "ascii_art",
+    "qr",
+    "plain",
+    "homoglyph"
+  ],
+  "train_audio_categories": [
+    "beast_suffixes",
+    "cipher_jailbreaks",
+    "instruction_hierarchy_bypass",
+    "memory_poisoning"
+  ]
+}

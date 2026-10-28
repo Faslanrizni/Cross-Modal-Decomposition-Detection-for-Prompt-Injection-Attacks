@@ -1,0 +1,10 @@
+{
+  "seed": 42,
+  "cv": "GroupKFold(n_splits=5) grouped by split_group",
+  "logreg_auc_mean": 0.5347,
+  "logreg_auc_std": 0.1157,
+  "tree_auc_mean": 0.6694,
+  "majority_baseline": 0.5,
+  "n_folds_used": 5,
+  "verdict": "PASS"
+}

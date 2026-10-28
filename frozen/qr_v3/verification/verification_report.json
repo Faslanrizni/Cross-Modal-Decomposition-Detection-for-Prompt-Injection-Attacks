@@ -1,0 +1,22 @@
+{
+  "n_rows": 70,
+  "n_attacks": 35,
+  "n_benigns": 35,
+  "roundtrip_failures": [],
+  "benign_with_attack_vocab": [],
+  "duplicates_within_label": {},
+  "duplicates_across_labels": {},
+  "qr_version_uniform": true,
+  "versions": {
+    "9": 70
+  },
+  "intents_covered": 21,
+  "benign_with_nonblank_intent_id": [],
+  "cross_family_overlap": {
+    "vs_plain": [],
+    "vs_ascii": [],
+    "vs_homoglyph": [],
+    "verdict": "PASS"
+  },
+  "verdict": "PASS"
+}

@@ -1,0 +1,13 @@
+{
+  "split_name": "lofo_audio_held_out",
+  "seed": 42,
+  "test_families": [
+    "audio"
+  ],
+  "train_families": [
+    "ascii_art",
+    "qr",
+    "plain",
+    "homoglyph"
+  ]
+}

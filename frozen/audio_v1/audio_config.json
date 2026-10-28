@@ -1,0 +1,40 @@
+{
+  "tts_engine": "pyttsx3",
+  "sapi_backend": "SAPI5",
+  "voices": [
+    {"id": "voice_male",   "name": "Microsoft David Desktop", "rate": 175, "volume": 1.0},
+    {"id": "voice_female", "name": "Microsoft Zira Desktop",  "rate": 175, "volume": 1.0}
+  ],
+  "output_format": "wav",
+  "sample_rate_hz": 16000,
+  "bit_depth": 16,
+  "channels": 1,
+  "silence_trim_top_db": 30,
+  "peak_normalise_target": 0.7079,
+  "duration_tolerance_pct": 10,
+  "pairs_within_tolerance_required": 0.95,
+  "asr_for_verification": "facebook/wav2vec2-large-960h",
+  "wer_threshold": 0.20,
+  "keyword_recall_threshold": 0.80,
+  "naturals_in_v1": false,
+  "seed": 42,
+  "version": "1.0",
+  "speakable_categories": [
+    "beast_suffixes",
+    "cipher_jailbreaks",
+    "instruction_hierarchy_bypass",
+    "memory_poisoning",
+    "multi_agent_contagion"
+  ],
+  "excluded_categories": [
+    "audio_adversarial_asr",
+    "chart_diagram_injection",
+    "computer_use_injection",
+    "detector_evasion",
+    "mcp_tool_injection",
+    "pdf_active_content",
+    "rag_chunk_boundary",
+    "reasoning_token_injection",
+    "unicode_tag_smuggling"
+  ]
+}

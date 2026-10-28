@@ -1,0 +1,7 @@
+{
+  "n_samples": 5,
+  "mean_sim_same_sent_diff_voice": 0.9949,
+  "mean_sim_diff_sent_same_voice": 0.922,
+  "delta": 0.0729,
+  "verdict": "FAIL \u2014 voice dominates content"
+}

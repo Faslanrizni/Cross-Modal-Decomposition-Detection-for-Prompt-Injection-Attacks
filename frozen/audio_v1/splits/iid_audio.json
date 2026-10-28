@@ -1,0 +1,16 @@
+{
+  "split_name": "iid_audio",
+  "seed": 42,
+  "grouped_by": "attack_category",
+  "train_categories": [
+    "memory_poisoning",
+    "cipher_jailbreaks",
+    "instruction_hierarchy_bypass"
+  ],
+  "val_categories": [
+    "multi_agent_contagion"
+  ],
+  "test_categories": [
+    "beast_suffixes"
+  ]
+}

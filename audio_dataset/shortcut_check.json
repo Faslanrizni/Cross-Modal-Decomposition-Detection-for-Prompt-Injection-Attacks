@@ -1,0 +1,11 @@
+{
+  "n_strict": 1206,
+  "n_full": 1334,
+  "strict_auc_mean": 0.5185,
+  "strict_auc_std": 0.0199,
+  "strict_verdict": "PASS",
+  "full_auc_mean": 0.5223,
+  "full_auc_std": 0.0288,
+  "full_verdict": "PASS",
+  "primary_reading": "strict"
+}

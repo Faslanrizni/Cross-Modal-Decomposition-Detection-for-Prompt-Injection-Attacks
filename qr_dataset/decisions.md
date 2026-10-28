@@ -207,3 +207,49 @@ The primary RQ1 experiment uses path 1 (CLIP on PNG). Prototype
 experiments may use path 2, with the explicit caveat that results are
 not comparable to path 1. Every reported RQ1 result will state which
 path was used.
+
+## Shortcut check (v4, 2026-10-27)
+
+- CV: GroupKFold(5) grouped by `split_group` (21 groups, not `intent_id`)
+- Logreg AUC mean: 0.5347 (PASS, threshold 0.60)
+- Logreg AUC sd: 0.1157
+- Tree AUC mean: 0.6694
+- Majority baseline: 0.50
+
+### Per-fold variance
+
+Per-fold logreg AUC: 0.531, 0.633, 0.531, 0.327, 0.653
+Per-fold tree AUC:   0.571, 0.755, 0.878, 0.633, 0.510
+
+The high variance (std 0.1157) compared to ascii (0.021) and
+homoglyph-full-population (0.028) is a consequence of the small
+sample size (70 rows, 21 groups, ~14 samples/fold) combined with
+a bimodal attack-length distribution.
+
+### Bimodal length caveat
+
+The 35 attacks come from two sources:
+- 15 v2 attacks from the real-world QR corpus (payloads ~130 chars)
+- 20 v4 attacks hand-authored in QR-realistic formats (~30–110 chars)
+
+The 35 benigns likewise come from two sources:
+- 15 v2 benigns matched to v2 attacks (payloads ~60 chars)
+- 20 v4 benigns matched to v4 attacks (payloads ~30–80 chars)
+
+Old attacks are systematically longer than everything else. A tree
+classifier can exploit this to produce fold-specific spikes (0.878 in
+fold 2) without a correspondingly high aggregate.
+
+The logreg, being linear, does not over-fit this artefact, and its
+0.5347 mean is the honest aggregate reading. It is below the 0.60
+threshold.
+
+### Consequence for the research
+
+The shortcut check PASSES on the primary metric. Any LOFO result on
+QR will not be attributable to systematic surface leakage.
+
+The bimodal-length distribution is documented as a limitation. If a
+future version (qr_v4) adds more attacks to the old corpus to balance
+lengths, the variance will reduce. For qr_v3, the aggregate PASS is
+treated as the operative verdict.

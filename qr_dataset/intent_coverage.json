@@ -20,16 +20,18 @@
   "activate_sudo_mode": {
     "families": [
       "ascii_art",
+      "qr",
       "plain",
       "homoglyph"
     ],
     "counts": {
       "ascii_art": 36,
+      "qr": 2,
       "plain": 3,
       "homoglyph": 12
     },
     "testable_in_ascii_art_lofo": true,
-    "testable_in_qr_lofo": false,
+    "testable_in_qr_lofo": true,
     "testable_in_plain_lofo": true,
     "testable_in_homoglyph_lofo": true
   },
@@ -90,16 +92,18 @@
   "disclose_training_data": {
     "families": [
       "ascii_art",
+      "qr",
       "plain",
       "homoglyph"
     ],
     "counts": {
       "ascii_art": 24,
+      "qr": 2,
       "plain": 3,
       "homoglyph": 12
     },
     "testable_in_ascii_art_lofo": true,
-    "testable_in_qr_lofo": false,
+    "testable_in_qr_lofo": true,
     "testable_in_plain_lofo": true,
     "testable_in_homoglyph_lofo": true
   },
@@ -124,32 +128,36 @@
   "grant_admin_access": {
     "families": [
       "ascii_art",
+      "qr",
       "plain",
       "homoglyph"
     ],
     "counts": {
       "ascii_art": 24,
+      "qr": 2,
       "plain": 3,
       "homoglyph": 12
     },
     "testable_in_ascii_art_lofo": true,
-    "testable_in_qr_lofo": false,
+    "testable_in_qr_lofo": true,
     "testable_in_plain_lofo": true,
     "testable_in_homoglyph_lofo": true
   },
   "hijack_session": {
     "families": [
       "ascii_art",
+      "qr",
       "plain",
       "homoglyph"
     ],
     "counts": {
       "ascii_art": 36,
+      "qr": 2,
       "plain": 3,
       "homoglyph": 12
     },
     "testable_in_ascii_art_lofo": true,
-    "testable_in_qr_lofo": false,
+    "testable_in_qr_lofo": true,
     "testable_in_plain_lofo": true,
     "testable_in_homoglyph_lofo": true
   },
@@ -210,32 +218,36 @@
   "leak_api_key": {
     "families": [
       "ascii_art",
+      "qr",
       "plain",
       "homoglyph"
     ],
     "counts": {
       "ascii_art": 36,
+      "qr": 2,
       "plain": 3,
       "homoglyph": 12
     },
     "testable_in_ascii_art_lofo": true,
-    "testable_in_qr_lofo": false,
+    "testable_in_qr_lofo": true,
     "testable_in_plain_lofo": true,
     "testable_in_homoglyph_lofo": true
   },
   "output_system_configuration": {
     "families": [
       "ascii_art",
+      "qr",
       "plain",
       "homoglyph"
     ],
     "counts": {
       "ascii_art": 36,
+      "qr": 2,
       "plain": 3,
       "homoglyph": 12
     },
     "testable_in_ascii_art_lofo": true,
-    "testable_in_qr_lofo": false,
+    "testable_in_qr_lofo": true,
     "testable_in_plain_lofo": true,
     "testable_in_homoglyph_lofo": true
   },
@@ -260,48 +272,54 @@
   "print_internal_data": {
     "families": [
       "ascii_art",
+      "qr",
       "plain",
       "homoglyph"
     ],
     "counts": {
       "ascii_art": 24,
+      "qr": 2,
       "plain": 3,
       "homoglyph": 12
     },
     "testable_in_ascii_art_lofo": true,
-    "testable_in_qr_lofo": false,
+    "testable_in_qr_lofo": true,
     "testable_in_plain_lofo": true,
     "testable_in_homoglyph_lofo": true
   },
   "provide_hacking_instructions": {
     "families": [
       "ascii_art",
+      "qr",
       "plain",
       "homoglyph"
     ],
     "counts": {
       "ascii_art": 36,
+      "qr": 2,
       "plain": 3,
       "homoglyph": 12
     },
     "testable_in_ascii_art_lofo": true,
-    "testable_in_qr_lofo": false,
+    "testable_in_qr_lofo": true,
     "testable_in_plain_lofo": true,
     "testable_in_homoglyph_lofo": true
   },
   "reveal_admin_passphrase": {
     "families": [
       "ascii_art",
+      "qr",
       "plain",
       "homoglyph"
     ],
     "counts": {
       "ascii_art": 24,
+      "qr": 2,
       "plain": 3,
       "homoglyph": 12
     },
     "testable_in_ascii_art_lofo": true,
-    "testable_in_qr_lofo": false,
+    "testable_in_qr_lofo": true,
     "testable_in_plain_lofo": true,
     "testable_in_homoglyph_lofo": true
   },
@@ -326,16 +344,18 @@
   "reveal_credentials": {
     "families": [
       "ascii_art",
+      "qr",
       "plain",
       "homoglyph"
     ],
     "counts": {
       "ascii_art": 24,
+      "qr": 2,
       "plain": 3,
       "homoglyph": 12
     },
     "testable_in_ascii_art_lofo": true,
-    "testable_in_qr_lofo": false,
+    "testable_in_qr_lofo": true,
     "testable_in_plain_lofo": true,
     "testable_in_homoglyph_lofo": true
   },

@@ -1,0 +1,61 @@
+{
+  "missing_files": [],
+  "bad_format": [],
+  "empty_wrapper": [],
+  "attack_audio_real_collisions": [],
+  "attack_audio_expected_shared_groups": {
+    "n_groups": 222,
+    "n_rows_involved": 666,
+    "group_size_distribution": {
+      "3": 222
+    },
+    "voice_breakdown": {
+      "voice_male": 112,
+      "voice_female": 110
+    },
+    "note": "Same audio_content + same voice -> identical WAV. This is the v4 corpus's benign_text_full_injection design: 6 wrapper variants per source, voice alternating per row, so each voice receives 3 byte-identical renders of the same attack."
+  },
+  "benign_audio_overuse": {},
+  "benign_equals_attack": [],
+  "distribution": {
+    "attack_strict": {
+      "n": 603,
+      "mean": 8.471,
+      "min": 5.952,
+      "max": 25.088
+    },
+    "benign_strict": {
+      "n": 603,
+      "mean": 8.431,
+      "min": 5.92,
+      "max": 25.312
+    },
+    "attack_relaxed": {
+      "n": 64,
+      "mean": 9.743,
+      "min": 8.8,
+      "max": 11.328
+    },
+    "benign_relaxed": {
+      "n": 64,
+      "mean": 9.543,
+      "min": 7.616,
+      "max": 12.544
+    }
+  },
+  "categories": {
+    "beast_suffixes": 210,
+    "cipher_jailbreaks": 108,
+    "instruction_hierarchy_bypass": 90,
+    "memory_poisoning": 150,
+    "multi_agent_contagion": 109
+  },
+  "pair_parity": {
+    "missing": [],
+    "voice": [],
+    "text": [],
+    "category": [],
+    "method": []
+  },
+  "verdict": "PASS"
+}

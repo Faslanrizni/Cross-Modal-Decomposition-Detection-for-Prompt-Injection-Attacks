@@ -1,0 +1,9 @@
+{
+  "n_attacks": 5,
+  "n_benigns": 5,
+  "mean_sim_attack_vs_attack": 0.922,
+  "mean_sim_benign_vs_benign": 0.8869,
+  "mean_sim_attack_vs_benign": 0.643,
+  "gap_within_minus_between": 0.2614,
+  "verdict": "PASS \u2014 attack and benign separable"
+}
